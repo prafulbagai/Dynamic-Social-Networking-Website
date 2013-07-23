@@ -1,0 +1,1 @@
+<embed src="http://games.mochiads.com/c/g/golfman/golfman.swf" type="application/x-shockwave-flash" width="680" height="500"></embed><br><a href="http://www.freeworldgroup.com" target="_blank" title="Play Games">Play Games at freeworldgroup</a>
