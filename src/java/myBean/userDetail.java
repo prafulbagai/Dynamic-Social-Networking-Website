@@ -21,11 +21,7 @@ public class userDetail {
         pass="";
         errors= new Hashtable();
     }
-
-    public String getName1() {
-        return name1;
-    }
-
+ 
     public void setName1(String name1) {
         this.name1 = name1;
     }
@@ -54,7 +50,10 @@ public class userDetail {
         this.pass = pass;
     }
 
-
+    public String getName1() {
+        return name1;
+    }
+    
     public String getName2() {
         return name2;
     }
