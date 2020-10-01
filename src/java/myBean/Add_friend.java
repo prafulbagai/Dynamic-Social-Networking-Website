@@ -20,7 +20,6 @@ public class Add_friend extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
     throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-        PrintWriter out = response.getWriter();
         
         try{
         Connection con=null;
@@ -35,9 +34,11 @@ public class Add_friend extends HttpServlet {
         stmt.execute("INSERT INTO friends_table (`user_loggedin`,`friends`) VALUE('"+sender_id+"','"+receiver_id+"' ");
         
          }
-           catch(Exception e){out.println("***********"+e);}
-        out.close();
-    }
+           catch(Exception e){
+                PrintWriter out = response.getWriter();
+                out.println("***********"+e);}
+                out.close();
+         }
     
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /** Handles the HTTP <code>GET</code> method.
