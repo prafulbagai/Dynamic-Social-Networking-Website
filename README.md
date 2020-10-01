@@ -1,8 +1,8 @@
-Dynamic-Social-Networking-Website
-=================================
+ Dynamer-Social-Networking-Website
+|=================================|
 
-Dynamic Website build in Java(JSP+Servlets)
+Dynamer Website built in Java(JSP+Servlets)
 
-This project lets you add friends, send messages, post on friend's walls, notification, chat- everything you do on a social networking sites.
+This project lets you add friends, Greet with them, Send Messages, Post on friend's walls, Notification, Chat-everything As carried out in any social networking sites.
 
-Build in Java.
+Built in Java.
