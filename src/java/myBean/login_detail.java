@@ -29,7 +29,7 @@ public class login_detail {
         this.loginPass = loginPass;
     }
 
-public String getErrors(String str) {
+    public String getErrors(String str) {
         String errmsg=(String)errors.get(str.trim());
     return (errmsg==null)? "" :errmsg;
     }
